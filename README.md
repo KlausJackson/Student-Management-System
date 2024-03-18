@@ -21,6 +21,7 @@ Export Options: Student Manager offers versatile export capabilities, allowing y
 - sqlite3 (Python's default library)
 - pandas (Python's default library)
 - reportlab (pip install reportlab)
+
   Open Command Prompt or PowerShell and type in `pip install <package name>`.
 
 For the application to work on your computer, please change the path of `database.db` to its new path when you download my code to your computer:
