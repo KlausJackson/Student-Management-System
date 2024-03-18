@@ -15,7 +15,7 @@ Export Options: Student Manager offers versatile export capabilities, allowing y
 ## Preview
 
 ## Requirements
-- Python 3.8
+- Python 3.8 or higher
 - PyQt6 (pip install PyQt6)
 - docx (pip install python-docx)
 - sqlite3 (Python's default library)
