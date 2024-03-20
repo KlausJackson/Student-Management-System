@@ -29,6 +29,6 @@ For the application to work on your computer, please change the path of `databas
 - actions.py: line 55, 95, 160, 191
 
 ## Note
-This is only a basic and user-friendly GUI application that interact with the database file stored locally in your computer.
-
-The process of making this application is inspired by: Ardit Sulce.
+This is only a basic and user-friendly GUI application that interact with the database file stored locally in your computer. <br>
+I would've done a MySQL version but I didn't want to. Give me a request in the discussion about this if you still want a MySQL version of it. <br>
+The process of making this application is inspired by: Ardit Sulce. <br>
