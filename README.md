@@ -13,8 +13,10 @@ Advanced Search Functionality: Quickly find specific student records using the s
 Export Options: Student Manager offers versatile export capabilities, allowing you to convert your SQLite database to various formats including Word, Excel, PDF, and CSV. Whether you need to create reports, share information, or integrate data into other systems, Student Manager ensures compatibility and flexibility.
 
 ## Preview
-This is a fast clip showing you how to add a student and what information a student would have in this database. Some information can't be leave blank like Name and ID. <br>
+This is a short clip showing you how to add a student and what information a student would have in this database. Some information can't be leave blank like Name and ID. <br>
 I have many other tutorial videos on how to use this application in the [Tutorial Videos](Tutorial%20Videos) directory. <br>
+
+NOTE: Ignore the dark theme in this short clip, it won't look like that when you download the code to your computer, unless you have installed a dark theme using ThemeTool. It would be a light theme like many other applications.
 
 ![Tutorial Video](Add-Student.gif)
 
