@@ -13,7 +13,10 @@ Advanced Search Functionality: Quickly find specific student records using the s
 Export Options: Student Manager offers versatile export capabilities, allowing you to convert your SQLite database to various formats including Word, Excel, PDF, and CSV. Whether you need to create reports, share information, or integrate data into other systems, Student Manager ensures compatibility and flexibility.
 
 ## Preview
-![Tutorial Video](Add%20Student.gif)
+This is a fast clip showing you how to add a student and what information a student would have in this database. Some information can't be leave blank like Name and ID. <br>
+I have many other tutorial videos on how to use this application in the [Tutorial Videos](Tutorial%20Videos) directory. <br>
+
+![Tutorial Video](Add-Student.gif)
 
 ## Requirements
 - Python 3.8 or higher
@@ -31,5 +34,5 @@ For the application to work on your computer, please change the path of `databas
 
 ## Note
 This is only a basic and user-friendly GUI application that interact with the database file stored locally in your computer. <br>
-I would've done a MySQL version but I didn't want to. Give me a request in the discussion about this if you still want a MySQL version of it. <br>
+I would've done a MySQL version but I didn't want to. Give me a request in the discussion about this if you still want a MySQL version of it, or even a C++ version. <br>
 The process of making this application is inspired by: Ardit Sulce. <br>
