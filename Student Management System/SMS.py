@@ -92,7 +92,7 @@ class MainWindow(QMainWindow):
         dialog.exec()
         
     def load_data(self):
-        connection = sqlite3.connect("E:\\Work\\Python\\projects\\Student Management System\\database.db")
+        connection = sqlite3.connect("database.db")
         self.table.setRowCount(0)
         result = connection.execute("SELECT * FROM student")
         self.total = connection.execute("SELECT COUNT(*) FROM student").fetchone()[0]
