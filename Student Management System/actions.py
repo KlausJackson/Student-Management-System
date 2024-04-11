@@ -52,7 +52,7 @@ class InsertDialog(QDialog):
             message.exec()
             return
         course, mobile, note = self.course.itemText(self.course.currentIndex()), self.mobile.text(), self.note.text()
-        connection = sqlite3.connect("E:\\Work\\Python\\projects\\Student Management System\\database.db")    
+        connection = sqlite3.connect("database.db")    
         cursor = connection.cursor()
         cursor.execute("INSERT INTO student (id, name, course, mobile, note) VALUES (?, ?, ?, ?, ?)", 
                        (id, name, course, mobile, note))
@@ -92,7 +92,7 @@ class FindDialog(QDialog):
 
     def search(self):
         info = self.find.text()
-        connection = sqlite3.connect("E:\\Work\\Python\\projects\\Student Management System\\database.db")
+        connection = sqlite3.connect("database.db")
         cursor = connection.cursor()
         rows = list(cursor.execute("SELECT * FROM student WHERE name LIKE ? OR id LIKE ? OR course LIKE ? OR mobile LIKE ? OR note LIKE ?"
                                    , ('%' + info + '%', '%' + info + '%', '%' + info + '%', '%' + info + '%', '%' + info + '%')))
@@ -157,7 +157,7 @@ class EditDialog(QDialog):
             message.exec()
             return        
         
-        connection = sqlite3.connect("E:\\Work\\Python\\projects\\Student Management System\\database.db")                    
+        connection = sqlite3.connect("database.db")                    
         cursor = connection.cursor()    
         cursor.execute("UPDATE student SET id = ?, name = ?, course = ?, mobile = ?, note = ? WHERE id = ?",
                        (id, name, course, mobile, note, self.original_id))    
@@ -188,7 +188,7 @@ class DeleteDialog(QDialog):
     def delete(self):
         i = self.sms.table.currentRow()                
         name = self.sms.table.item(i, 1).text()            
-        connection = sqlite3.connect("E:\\Work\\Python\\projects\\Student Management System\\database.db")            
+        connection = sqlite3.connect("database.db")            
         cursor = connection.cursor()
         cursor.execute("DELETE FROM student WHERE name = ?", (name, ))
         connection.commit()
