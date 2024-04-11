@@ -30,11 +30,8 @@ NOTE: Ignore the dark theme in this short clip, it won't look like that when you
 
   Open Command Prompt or PowerShell and type in `pip install <package name>`.
 
-For the application to work on your computer, please change the path of `database.db` to its new path when you download my code to your computer:
-- SMS.py: line 95
-- actions.py: line 55, 95, 160, 191
-
 ## Note
 This is only a basic and user-friendly GUI application that interact with the database file stored locally in your computer. <br>
 I would've done a MySQL version but I didn't want to. Give me a request in the discussion about this if you still want a MySQL version of it, or even a C++ version. <br>
+Please file an issue if there's any problem with the code. <br>
 The process of making this application is inspired by: Ardit Sulce. <br>
