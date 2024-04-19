@@ -1,4 +1,5 @@
 # Student-Management-System
+[![Python version](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://shields.io/) ![License](https://img.shields.io/badge/License-MIT-blue.svg) <br>
 A user-friendly GUI application designed to manage student records using SQLite database integration.
 
 ## Overview
@@ -32,6 +33,7 @@ NOTE: Ignore the dark theme in this short clip, it won't look like that when you
 
 ## Note
 This is only a basic and user-friendly GUI application that interact with the database file stored locally in your computer. <br>
-I would've done a MySQL version but I didn't want to. Give me a request in the discussion about this if you still want a MySQL version of it, or even a C++ version. <br>
+I would've done a MySQL version but I didn't want to. Give me a request in the discussion about this if you still want a MySQL version of it. <br>
 Please file an issue if there's any problem with the code. <br>
 The process of making this application is inspired by: Ardit Sulce. <br>
+I will release a version with better UI/UX experience using QT Designer. <br>
