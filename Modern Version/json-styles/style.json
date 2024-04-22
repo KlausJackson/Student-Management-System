@@ -1,0 +1,123 @@
+{
+    "ShowLogs": true,
+    "CheckForMissingicons": false,
+    "LiveCompileQss": true,
+    "QMainWindow": [{
+        "tittle": "Student Management Application"
+    }],
+    "QSettings": [{
+        "ThemeSettings": [{
+            "CustomTheme": [{
+                "Background-color": "#1C2541",
+                "Text-color": "#FFFFFF",
+                "Accent-color": "#1b1b27",
+                "Icons-color": "#FFFFFF",
+                "Theme-name": "Default-theme",
+                "Default-Theme": true
+            }]
+        }],
+        "AppSettings": {
+            "OrganizationName": "Klaus Jackson",
+            "ApplicationName": "Student Management Application",
+            "OrganizationDomain": "Student Management Application.org"
+        }
+    }],
+    "QtBinding": "PySide6",
+
+	  "QPushButtonGroup": [{
+		    "Buttons": [
+            "home",
+			      "reports",
+			      "accounts",
+			      "settings",
+            "help",
+            "about"
+        ],
+		    "Style": [{
+			      "Active": "background-color: #1b1b27; border-left: 3px solid #5BC0BE; font-weight: bold;",
+			      "NotActive": "background-color: transparent; border: none;"
+		    }]
+	  }],
+
+    "QCustomSlideMenu": [{
+		    "name": "left",
+		    "defaultSize": [{
+			      "width": 0,
+			      "height": "parent"
+		    }],
+		    "collapsedSize": [{
+			      "width": 0,
+			      "height": "parent"
+		    }],
+		    "expandedSize": [{
+			      "width": 140,
+			      "height": "parent"
+		    }],
+		    "toggleButton": [{
+			      "buttonName": "menu",
+			      "icons": [{
+				        "whenMenuIsCollapsed": ":/feather/icons/feather/align-justify.png",
+				        "whenMenuIsExpanded": ":/feather/icons/feather/align-justify.png"
+			      }]
+		    }],
+		    "menuTransitionAnimation": [{
+			      "animationDuration": 250,
+			      "animationEasingCurve": "Linear",
+			      "whenCollapsing": [{
+				        "animationDuration": 250,
+				        "animationEasingCurve": "Linear"
+			      }]
+        }]},{
+
+		    "name": "right",
+		    "defaultSize": [{
+			      "width": 0,
+			      "height": "parent"
+		    }],
+		    "collapsedSize": [{
+			      "width": 0,
+			      "height": "parent"
+		    }],
+		    "expandedSize": [{
+			      "width": 250,
+			      "height": "parent"
+		    }],
+		    "toggleButton": [{
+			      "buttonName": "add",
+			      "icons": [{
+				        "whenMenuIsCollapsed": "",
+				        "whenMenuIsExpanded": ""
+			      }]
+		    }],
+		    "menuTransitionAnimation": [{
+			      "animationDuration": 250,
+			      "animationEasingCurve": "Linear",
+			      "whenCollapsing": [{
+				        "animationDuration": 250,
+				        "animationEasingCurve": "Linear"
+			      }]
+        }]
+    }],
+
+    "QCustomQStackedWidget": [{
+        "name":"stackedWidget",
+        "transitionAnimation": [{
+            "slide": [{
+                "active": true,
+                "duration": 200,
+                "direction": "horizontal",
+                "easingCurve": "OutBack"
+            }]
+        }],
+        "navigation": [{
+            "navigationButtons":[{
+                "home": "homep",
+                "reports": "reportp",
+                "accounts": "accountp",
+                "settings": "settingsp",
+                "help": "helpp",
+                "about": "aboutp"                            
+            }]
+        }]
+    }]
+}
