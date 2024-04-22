@@ -52,7 +52,7 @@ Export Options: Student Manager offers versatile export capabilities, allowing y
 
 * Specific requirements for Modern Version:
   - PySide6 (you can still use PyQt if you don't want to install PySide6, just change the imports in each file)
-  - GTK+ for Windows Runtime Environment (I don't know if you need this to run)https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/download/2022-01-04/gtk3-runtime-3.24.31-2022-01-04-ts-win64.exe
+  - [GTK+ for Windows Runtime Environment](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/download/2022-01-04/gtk3-runtime-3.24.31-2022-01-04-ts-win64.exe)
   - Custom_Widgets (`pip install QT-PyQt-PySide-Custom-Widgets` then add `Scripts` directory to the system environment path, you probably know how to do this or just Google it).
 
 * Usage: Open Command Prompt/PowerShell or any terminal and type in `pip install <package name>` (be in the correct environment). Then type `python3 main.py` for Modern Version, `python3 SMS.py` for Basic Version.
