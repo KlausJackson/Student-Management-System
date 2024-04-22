@@ -19,7 +19,8 @@ I have many other tutorial videos on how to use the Basic Version in the [Tutori
 ![Tutorial Video](Add-Student.gif)
 
 ### Modern Version
-This is a short clip of the Modern Version, similar to Basic Version, but with modern-looking GUI, very easy to use. <br>
+This is a short clip of the Modern Version on Windows, similar to Basic Version, but with modern-looking GUI, very easy to use. <br>
+On Linux, I think it looks not as good, smaller font size, animations are a tiny bit slow but the app functions are the same quality - perfection #j4f. <br>
 
 ![Tutorial Video](Basic-Version.gif)
 
