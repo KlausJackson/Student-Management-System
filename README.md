@@ -63,7 +63,7 @@ If you're interested in learning how to use QT Designer and Custom-Widgets libra
 Khamisi Kibet's Github: https://github.com/KhamisiKibet <br>
 Custom-Widgets's repo: https://github.com/KhamisiKibet/QT-PyQt-PySide-Custom-Widgets <br>
 Custom-Widgets's Documentation: https://khamisikibet.github.io/Docs-QT-PyQt-PySide-Custom-Widgets/ <br>
-Khamisi Kibet's YouTube: https://www.youtube.com/@SpinnTV <br>
+Khamisi Kibet's YouTube channel: https://www.youtube.com/@SpinnTV <br>
 
 He posts a lot of helpful tutorials about making modern-looking desktop application using QT Designer, Python and Custom-Widgets. <br>
 
