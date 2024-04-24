@@ -9,6 +9,8 @@
 A user-friendly GUI application designed to manage student records using SQLite database integration and QT Designer. <br>
 
 ## Preview
+The gif, mp4 clips looks a bit off, perhaps it's because of the resolution is too high? I don't know, but it looks a lot nicer (probably only on Windows) when you see it for yourself.
+Basic version is light theme, Modern Version is dark theme.
 
 ### Basic Version
 This is a short clip showing you how to add a student in the Basic Version and what information a student would have in this database. Some information can't be leave blank like Name and ID. <br>
