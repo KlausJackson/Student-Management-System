@@ -22,7 +22,7 @@ I have many other tutorial videos on how to use the Basic Version in the [Tutori
 This is a short clip of the Modern Version on Windows, similar to Basic Version, but with modern-looking GUI, very easy to use. <br>
 On Linux, I think it looks not as good, smaller font size, animations are a tiny bit slow but the app functions are the same quality - perfection #j4f. <br>
 
-![Tutorial Video](Basic-Version.gif)
+![Tutorial Video](Modern-Version.gif)
 
 This version is made with QT Designer (generates .ui files), PySide6 and Custom_Widgets by Khamisi Kibet. <br>
 
