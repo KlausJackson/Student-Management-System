@@ -48,6 +48,7 @@ class MainWindow(QMainWindow):
         self.ui.delete_2.hide()
         self.func = Func(self.ui) 
         self.connection = False
+        
         self.ui.csv.clicked.connect(self.func.csv)
         self.ui.doc.clicked.connect(self.func.doc)
         self.ui.pdf.clicked.connect(self.func.pdf)
@@ -76,6 +77,7 @@ class MainWindow(QMainWindow):
             if self.connection:
                 self.ui.edit.clicked.disconnect()
                 self.ui.delete_2.clicked.disconnect()
+                
         if len(selected_items) == 1:
             self.ui.edit.show()
             self.ui.delete_2.show()  
@@ -83,6 +85,7 @@ class MainWindow(QMainWindow):
                 self.ui.edit.clicked.connect(self.func.edit)
                 self.ui.delete_2.clicked.connect(self.func.delete)
                 self.connection = True
+                
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
