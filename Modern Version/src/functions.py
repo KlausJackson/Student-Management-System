@@ -1,10 +1,11 @@
-import sqlite3
-from PySide6.QtCore import (QCoreApplication, Signal, Qt)
-from PySide6.QtWidgets import (QFileDialog, QMessageBox, QTableWidgetItem)
-from PySide6.QtGui import (QFont)
-from PySide6.QtWidgets import (QLineEdit, QMessageBox, QPushButton, QLabel, QDialog, 
-                             QVBoxLayout, QComboBox, QGridLayout)
+from PySide6.QtWidgets import (QFileDialog, QMessageBox, QTableWidgetItem,)
+from PySide6.QtWidgets import (QLineEdit, QMessageBox, QPushButton, 
+                               QLabel, QDialog, QVBoxLayout, QComboBox, QGridLayout)
 from Custom_Widgets.QCustomModals import QCustomModals
+from PySide6.QtGui import (QFont)
+from PySide6.QtCore import (QCoreApplication, QPoint, Signal, Qt)
+
+import sqlite3
 import src._icons_rc
 import pandas as pd
 from reportlab.lib.pagesizes import letter
@@ -256,10 +257,16 @@ class EditDialog(QDialog):
         button.clicked.connect(self.update)
         layout.addWidget(button)
         self.setLayout(layout) 
+        self.show_centered()
         
-    # def closeEvent(self, event):
-    #     super().closeEvent(event)        
-        
+    def show_centered(self):      
+        dialog_geometry = self.frameGeometry()
+        screen_geometry = self.screen().geometry()
+        center_x = screen_geometry.width() / 2
+        center_y = screen_geometry.height() / 2
+        dialog_geometry.moveCenter(QPoint(center_x, center_y))
+        self.move(dialog_geometry.topLeft())
+
     def update(self):
         id, name, course, mobile = self.id.text(), self.name.text(), self.course.currentText(), self.contact.text()
         note = self.note.text()
@@ -310,6 +317,15 @@ class DeleteDialog(QDialog):
         self.setLayout(layout)
         y.clicked.connect(self.delete)  
         n.clicked.connect(self.close)
+        self.show_centered()
+        
+    def show_centered(self):      
+        dialog_geometry = self.frameGeometry()
+        screen_geometry = self.screen().geometry()
+        center_x = screen_geometry.width() / 2
+        center_y = screen_geometry.height() / 2
+        dialog_geometry.moveCenter(QPoint(center_x, center_y))
+        self.move(dialog_geometry.topLeft())     
         
     def closeEvent(self, event):
         super().closeEvent(event)           
@@ -324,6 +340,7 @@ class DeleteDialog(QDialog):
         cursor.close()
         connection.close()
         self.func.load_data()
+        
         notify = QCustomModals.InformationModal(
             title = "Action Made",
             parent = self.ui.centralwidget,  
@@ -353,11 +370,19 @@ class FindDialog(QDialog):
         self.find.setPlaceholderText("Any information you want to look for.")
         self.find.textChanged.connect(self.search)
         layout.addWidget(self.find)
-        
         self.report = QLabel(f"{self.result} matched.")
         layout.addWidget(self.report)        
-        self.setLayout(layout)        
-
+        self.setLayout(layout) 
+        self.show_centered()
+        
+    def show_centered(self):      
+        dialog_geometry = self.frameGeometry()
+        screen_geometry = self.screen().geometry()
+        center_x = screen_geometry.width() / 2
+        center_y = screen_geometry.height() / 2
+        dialog_geometry.moveCenter(QPoint(center_x, center_y))
+        self.move(dialog_geometry.topLeft()) 
+            
     def search(self):
         info = self.find.text()
         connection = sqlite3.connect(self.database)
