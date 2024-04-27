@@ -21,7 +21,7 @@ I have many other tutorial videos on how to use the Basic Version in the [Tutori
 ### Modern Version
 This is a short clip of the Modern Version, similar to Basic Version, but with modern-looking GUI, very easy to use. <br>
 
-![Tutorial Video](Basic-Version.gif)
+![Tutorial Video](Modern-Version.gif)
 
 This version is made with Qt Designer (generates .ui files), PySide6 and Custom_Widgets by Khamisi Kibet. <br>
 
@@ -49,18 +49,18 @@ Export Options: Student Manager offers versatile export capabilities, allowing y
   - openpyxl
 <br>
 
-* Specific requirements for Basic Version: PyQt6 
+* Specific requirements for Basic Version: PyQt6 <br>
 ```pip install -r requirements-B.txt```
 <br>
 
 * Specific requirements for Modern Version:
   - PySide6 (you can still use PyQt if you don't want to install PySide6, just change the imports in each file)
   - [GTK+ for Windows Runtime Environment](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/download/2022-01-04/gtk3-runtime-3.24.31-2022-01-04-ts-win64.exe) (to use Custom_Widgets on Windows)
-  - Custom_Widgets (`pip install QT-PyQt-PySide-Custom-Widgets` then add `Scripts` directory to the system environment path, you probably know how to do this or just Google it). 
+  - Custom_Widgets (`pip install QT-PyQt-PySide-Custom-Widgets` then add `Scripts` directory to the system environment path, you probably know how to do this or just Google it). <br>
   ```pip install -r requirements-B.txt```
 <br>
 
-* Usage: Open Command Prompt/PowerShell or any terminal and type in `pip install <package name>` (be in the correct environment). Then type `python3 main.py` for Modern Version, `python3 SMS.py` for Basic Version.
+* Usage: Open the terminal and type `python3 main.py` for Modern Version, `python3 SMS.py` for Basic Version.
 
 ## Note
 If you're interested in learning how to use QT Designer and Custom-Widgets library, you can check out Khamisi Kibet for reference. <br>
