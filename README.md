@@ -1,16 +1,14 @@
 # Student-Management-System
 [![Python version](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://shields.io/) 
-![License](https://img.shields.io/badge/License-MIT-blue.svg) 
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 [![GitHub top language](https://img.shields.io/github/languages/top/KlausJackson/Student-Management-System?logo=github)](https://github.com/KlausJackson/Student-Management-System) 
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/KlausJackson/Student-Management-System?logo=github)](https://github.com/KlausJackson/Student-Management-System)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/KlausJackson/Student-Management-System?logo=github)](https://github.com/KlausJackson/Student-Management-System) 
 [![GitHub issues](https://img.shields.io/github/issues/KlausJackson/Student-Management-System?logo=github)](https://github.com/KlausJackson/Student-Management-System)
 <br>
 
-A user-friendly GUI application designed to manage student records using SQLite database integration and QT Designer. <br>
+A user-friendly GUI application designed to manage student records using SQLite database integration and Qt Designer. <br>
 
 ## Preview
-The gif, mp4 clips looks a bit off, perhaps it's because of the resolution is too high? I don't know, but it looks a lot nicer (probably only on Windows) when you see it for yourself.
-Basic version is light theme, Modern Version is dark theme.
 
 ### Basic Version
 This is a short clip showing you how to add a student in the Basic Version and what information a student would have in this database. Some information can't be leave blank like Name and ID. <br>
@@ -21,12 +19,11 @@ I have many other tutorial videos on how to use the Basic Version in the [Tutori
 ![Tutorial Video](Add-Student.gif)
 
 ### Modern Version
-This is a short clip of the Modern Version on Windows, similar to Basic Version, but with modern-looking GUI, very easy to use. <br>
-On Linux, I think it looks not as good, smaller font size, animations are a tiny bit slow but the app functions are the same quality - perfection #j4f. <br>
+This is a short clip of the Modern Version, similar to Basic Version, but with modern-looking GUI, very easy to use. <br>
 
-![Tutorial Video](Modern-Version.gif)
+![Tutorial Video](Basic-Version.gif)
 
-This version is made with QT Designer (generates .ui files), PySide6 and Custom_Widgets by Khamisi Kibet. <br>
+This version is made with Qt Designer (generates .ui files), PySide6 and Custom_Widgets by Khamisi Kibet. <br>
 
 **NOTE**: Dark theme is the default theme of this version. 
 
@@ -45,21 +42,25 @@ Export Options: Student Manager offers versatile export capabilities, allowing y
 ## Requirements & Usage
 * General requirements:
   - Python 3.8 or higher
-  - docx (pip install python-docx)
   - sqlite3 (Python's default library)
   - pandas (Python's default library)
+  - docx 
   - reportlab
   - openpyxl
+<br>
 
 * Specific requirements for Basic Version: PyQt6 
+```pip install -r requirements-B.txt```
+<br>
 
 * Specific requirements for Modern Version:
   - PySide6 (you can still use PyQt if you don't want to install PySide6, just change the imports in each file)
-  - [GTK+ for Windows Runtime Environment](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/download/2022-01-04/gtk3-runtime-3.24.31-2022-01-04-ts-win64.exe)
-  - Custom_Widgets (`pip install QT-PyQt-PySide-Custom-Widgets` then add `Scripts` directory to the system environment path, you probably know how to do this or just Google it).
-    
-Open Command Prompt/PowerShell or any terminal and type in `pip install <package name>` (be in the correct environment). <br>
-* Usage: Type `python3 main.py` for Modern Version, `python3 SMS.py` for Basic Version. <br>
+  - [GTK+ for Windows Runtime Environment](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/download/2022-01-04/gtk3-runtime-3.24.31-2022-01-04-ts-win64.exe) (to use Custom_Widgets on Windows)
+  - Custom_Widgets (`pip install QT-PyQt-PySide-Custom-Widgets` then add `Scripts` directory to the system environment path, you probably know how to do this or just Google it). 
+  ```pip install -r requirements-B.txt```
+<br>
+
+* Usage: Open Command Prompt/PowerShell or any terminal and type in `pip install <package name>` (be in the correct environment). Then type `python3 main.py` for Modern Version, `python3 SMS.py` for Basic Version.
 
 ## Note
 If you're interested in learning how to use QT Designer and Custom-Widgets library, you can check out Khamisi Kibet for reference. <br>
@@ -74,7 +75,7 @@ He posts a lot of helpful tutorials about making modern-looking desktop applicat
 ## The End
 This is only a basic and user-friendly GUI application that interact with the database file stored locally in your computer. <br>
 
-I would've done a MySQL version but I didn't want to. <br>
+I would've done a MySQL version but I didn't want to.
 Please file an issue if there's any problem with the code. <br>
 
 The process of making this application is inspired by: Ardit Sulce. <br>

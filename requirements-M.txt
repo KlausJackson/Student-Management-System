@@ -1,0 +1,5 @@
+reportlab==4.2.0
+docx==1.1.0
+openpyxl==3.1.2
+PySide6==6.7.0
+QT-PyQt-PySide-Custom-Widgets==0.9.6
