@@ -4,7 +4,13 @@
 [![GitHub top language](https://img.shields.io/github/languages/top/KlausJackson/Student-Management-System?logo=github)](https://github.com/KlausJackson/Student-Management-System) 
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/KlausJackson/Student-Management-System?logo=github)](https://github.com/KlausJackson/Student-Management-System) 
 [![GitHub issues](https://img.shields.io/github/issues/KlausJackson/Student-Management-System?logo=github)](https://github.com/KlausJackson/Student-Management-System)
-<br>
+[![GitHub issues](https://img.shields.io/github/issues-closed/KlausJackson/Student-Management-System?logo=github)](https://github.com/KlausJackson/Student-Management-System)
+[![GitHub issues](https://img.shields.io/github/issues-pr/KlausJackson/Student-Management-System?logo=github)](https://github.com/KlausJackson/Student-Management-System)
+[![GitHub issues](https://img.shields.io/github/issues-pr-closed/KlausJackson/Student-Management-System?logo=github)](https://github.com/KlausJackson/Student-Management-System)
+
+![](https://img.shields.io/github/forks/KlausJackson/DataStructures_Algorithms.svg)
+![](https://img.shields.io/github/stars/KlausJackson/DataStructures_Algorithms.svg)
+![](https://img.shields.io/github/watchers/KlausJackson/DataStructures_Algorithms.svg)
 
 A user-friendly GUI application designed to manage student records using SQLite database integration and Qt Designer. <br>
 
