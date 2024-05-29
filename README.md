@@ -7,6 +7,7 @@
 [![GitHub issues](https://img.shields.io/github/issues-closed/KlausJackson/Student-Management-System?logo=github)](https://github.com/KlausJackson/Student-Management-System)
 [![GitHub issues](https://img.shields.io/github/issues-pr/KlausJackson/Student-Management-System?logo=github)](https://github.com/KlausJackson/Student-Management-System)
 [![GitHub issues](https://img.shields.io/github/issues-pr-closed/KlausJackson/Student-Management-System?logo=github)](https://github.com/KlausJackson/Student-Management-System)
+![GitHub last commit](https://img.shields.io/github/last-commit/KlausJackson/DataStructures_Algorithms?style=plastic)
 
 ![](https://img.shields.io/github/forks/KlausJackson/DataStructures_Algorithms.svg)
 ![](https://img.shields.io/github/stars/KlausJackson/DataStructures_Algorithms.svg)
@@ -16,7 +17,7 @@ A user-friendly GUI application designed to manage student records using SQLite 
 
 ## How To Contact Me
 [![Patreon](https://img.shields.io/badge/Patreon-AC7AC2?style=for-the-badge&logo=patreon&logoColor=white)](patreon.com/KlausJackson)
-[![Buy Me A Coffee](https://img.shields.io/badge/BuyCoffee-FFFF00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/klausjackson)
+[![Buy Me A Coffee](https://img.shields.io/badge/BuyCoffee-FFFF00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/KlausJackson)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/KlausJackson/) 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:KlausJackson2@gmail.com)
 [![Steam](https://img.shields.io/badge/Steam-000050?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/KlausJackson/)
