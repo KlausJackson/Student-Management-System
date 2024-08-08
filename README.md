@@ -78,7 +78,7 @@ pip install -r requirements-B.txt
 Specific requirements for Modern Version:
 
 - PySide6 (you can still use PyQt if you don't want to install PySide6, just change the imports in each file)
-- [GTK+ for Windows Runtime Environment](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/download/2022-01-04/gtk3-runtime-3.24.31-2022-01-04-ts-win64.exe) (to use Custom_Widgets on Windows)
+- [GTK+ for Windows Runtime Environment](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/download/2022-01-04/gtk3-runtime-3.24.31-2022-01-04-ts-win64.exe) (to use Custom_Widgets on Windows, very important if you don't want to run into error `cannot load library`)
 - Custom_Widgets (`pip install QT-PyQt-PySide-Custom-Widgets` then add `Scripts` directory to the system environment path, you probably know how to do this or just Google it).
 
 ```terminal
