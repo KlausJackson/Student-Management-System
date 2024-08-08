@@ -660,8 +660,6 @@ class Ui_MainWindow(object):
 "\n"
 "My Upwork: https://www.upwork.com/freelancers/~01f978d2d010b8b6c7\n"
 "\n"
-"My Fiverr: https://www.fiverr.com/klausjackson\n"
-"\n"
 "The process of making this app is inspired by: Ardit Sulce and Khamisi Kibet.\n"
 "\n"
 "MIT Lisence", None))
