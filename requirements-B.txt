@@ -1,4 +1,4 @@
 reportlab==4.2.0
-docx==1.1.0
+docx==0.2.4
 openpyxl==3.1.2
 PyQt==6.7.0
