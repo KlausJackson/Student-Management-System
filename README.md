@@ -84,7 +84,7 @@ Specific requirements for Modern Version:
 - Custom_Widgets (`pip install QT-PyQt-PySide-Custom-Widgets`).
 
 ```terminal
-pip install -r requirements-B.txt
+pip install -r requirements-M.txt
 ```
 
 **How to run for each version:** open the terminal and type `python3 main.py` for Modern Version, `python3 SMS.py` for Basic Version.
