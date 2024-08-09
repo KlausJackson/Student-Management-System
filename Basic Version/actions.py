@@ -212,6 +212,8 @@ class AboutDialog(QMessageBox):
 Author: Klaus Jackson
 My Github: https://github.com/KlausJackson
 My LinkedIn: https://www.linkedin.com/in/klausjackson
+My Upwork: https://www.upwork.com/freelancers/~01f978d2d010b8b6c7
+You can find other ways to contact me on my Github page.
 
 The process of making this app is inspired by: Ardit Sulce.
 

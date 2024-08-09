@@ -60,14 +60,16 @@ Export Options: Student Manager offers versatile export capabilities, allowing y
 
 ## Requirements & Usage
 
+Non-programmers can check out [## How to Setup Python Environment (for non-programmers)](README.md#how-to-setup-python-environment-for-non-programmers), ask AI or file an issue to get better instruction on how to run this app. <br>
+
 General requirements:
 
 - Python 3.8 or higher
 - sqlite3 (Python's default library)
 - pandas (Python's default library)
-- docx
-- reportlab
-- openpyxl
+- docx (`pip install python-docx`)
+- reportlab (`pip install reportlab`)
+- openpyxl (`pip install openpyxl`)
 
 Specific requirements for Basic Version: PyQt6
 
@@ -77,33 +79,44 @@ pip install -r requirements-B.txt
 
 Specific requirements for Modern Version:
 
-- PySide6 (you can still use PyQt if you don't want to install PySide6, just change the imports in each file)
-- [GTK+ for Windows Runtime Environment](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/download/2022-01-04/gtk3-runtime-3.24.31-2022-01-04-ts-win64.exe) (to use Custom_Widgets on Windows)
-- Custom_Widgets (`pip install QT-PyQt-PySide-Custom-Widgets` then add `Scripts` directory to the system environment path, you probably know how to do this or just Google it).
+- PySide6 (you can use PyQt if you don't want to install PySide6, just change the imports in each file)
+- [GTK+ for Windows Runtime Environment](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/download/2022-01-04/gtk3-runtime-3.24.31-2022-01-04-ts-win64.exe) (to avoid error `cannot load library` on Windows)
+- Custom_Widgets (`pip install QT-PyQt-PySide-Custom-Widgets`).
 
 ```terminal
 pip install -r requirements-B.txt
 ```
 
-**How to run for each version:** Open the terminal and type `python3 main.py` for Modern Version, `python3 SMS.py` for Basic Version.
+**How to run for each version:** open the terminal and type `python3 main.py` for Modern Version, `python3 SMS.py` for Basic Version.
 
 ## Note
 
 If you're interested in learning how to use QT Designer and Custom-Widgets library, you can check out Khamisi Kibet for reference. <br>
 
-Khamisi Kibet's Github: https://github.com/KhamisiKibet <br>
-Custom-Widgets's repo: https://github.com/KhamisiKibet/QT-PyQt-PySide-Custom-Widgets <br>
-Custom-Widgets's Documentation: https://khamisikibet.github.io/Docs-QT-PyQt-PySide-Custom-Widgets/ <br>
-Khamisi Kibet's YouTube channel: https://www.youtube.com/@SpinnTV <br>
+Khamisi Kibet's Github: <https://github.com/KhamisiKibet>
+Custom-Widgets's repo: <https://github.com/KhamisiKibet/QT-PyQt-PySide-Custom-Widgets>
+Custom-Widgets's Documentation: <https://khamisikibet.github.io/Docs-QT-PyQt-PySide-Custom-Widgets/>
+Khamisi Kibet's YouTube channel: <https://www.youtube.com/@SpinnTV>
 
 He posts a lot of helpful tutorials about making modern-looking desktop application using QT Designer, Python and Custom-Widgets. <br>
 
 ## The End
 
-This is only a basic and user-friendly GUI application that interact with the database file stored locally in your computer. <br>
+This is only a basic and user-friendly GUI application that interact with the database file stored locally in your computer. I will make a C++ version. <br>
 
-I would've done a MySQL version but I didn't want to.
 Please file an issue if there's any problem with the code. <br>
 
 The process of making this application is inspired by: Ardit Sulce. <br>
 The process of making the Modern Version is inspired by: Khamisi Kibet <br>
+
+## How to Setup Python Environment (for non-programmers)
+
+**This tutorial is for Windows users, check out YouTube, ask AI if you use other operating system (Linux/MacOS)**
+
+- Download [Python on their website](https://www.python.org/downloads/) or Microsoft Store.
+- Search for "Environment Variables" on your computer, click on the following: "Edit the system environment variables" > "Environment Variables" > "Path" (below "OS") > "Edit".
+- Locate `python.exe`, `Scripts` and `site-packages` folders, add their paths to the system path (click on "New" in ""Edit environment variables" window). Click "OK" to save everything.
+- SOMETIMES, the order of the path matters, so you need to move them up to the top.
+- Open command prompt, use `python --version` and `pip --version` to verify that you have successfully setup your Python environment.
+
+Check out YouTube tutorials, ask AI or file an issue if you still have questions.
