@@ -60,7 +60,7 @@ Export Options: Student Manager offers versatile export capabilities, allowing y
 
 ## Requirements & Usage
 
-Non-programmers can check out [## How to Setup Python Environment (for non-programmers)](README.md#how-to-setup-python-environment-for-non-programmers), ask AI or file an issue to get better instruction on how to run this app. <br>
+Non-programmers can read [this short tutorial on how to setup Python environment if you haven't](README.md#how-to-setup-python-environment-for-non-programmers), ask AI or file an issue to get better instruction on how to run this app. <br>
 
 General requirements:
 
